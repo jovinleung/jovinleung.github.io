@@ -1,0 +1,8 @@
+Origin: TurBo's Repo
+Label: TurBo's Repo
+Suite: stable
+Version: 1.0
+Codename: TurBo
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: This is a self-use software source

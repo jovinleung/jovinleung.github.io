@@ -1,0 +1,19 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{296, 148}",
+    "itemCornerRadius":10,
+    "banners":[
+        {
+            "url":"https://turbotse.github.io/images/top.png",
+            "title":"TurBo's Repo",
+            "package":"",
+            "hideShadow":false
+        },
+        {
+            "url":"https://turbotse.github.io/images/top1.png",
+            "title":"TurBo's Repo",
+            "package":"",
+            "hideShadow":false
+        }
+    ]
+}
