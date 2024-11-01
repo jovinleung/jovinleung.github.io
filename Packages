@@ -13,24 +13,23 @@ Description: In-App Purchases hack for ios 15 rootless version.
 Author: Ali7assan
 Name: LocalIAPStore
 
-Package: com.deontw.7days-antirevoke
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Deon
-Installed-Size: 152
-Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: apt.deonrepo.net.7days-antirevoke
-Replaces: apt.deonrepo.net.7days-antirevoke
-Provides: apt.deonrepo.net.7days-antirevoke
-Filename: ./debs/rootfull/com.deontw.7days-antirevoke_1.0_iphoneos-arm.deb
-Size: 5014
-MD5sum: d45ce6b9c3a7f9e1b80abbf16b705d9f
-SHA1: 660388ec839ba4e406d53cac1bf2b2d6dff204dd
-SHA256: fce726bfa2b3a113991a4a17a30f2444c27fbb7b95be51801837a41843562092
-Section: Tweaks
-Description: No more revocations for enterprise certificate. 無視企業證書掉簽。
-Author: Deon
-Name: 7Days-AntiRevoke
+Package: com.curtin.pkc.rootless
+Version: 0.6-0
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/rootless/com.curtin.pkc.rootless_0.6-0_iphoneos-arm64.deb
+Size: 595452
+MD5sum: f0828601fee977f991fe5d19c91b4fb9
+SHA1: ba3957e31a62237c579772fd161a92c3944dd6e8
+SHA256: 8355a33b85f37742df9c21541bbdcb861c25d1b87911e54cc23ea16e4e92b011
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
 
 Package: com.deontw.7days-antirevoke
 Version: 1.0
@@ -51,21 +50,41 @@ Description: No more revocations for enterprise certificate. 無視企業證書�
 Author: Deon
 Name: 7Days-AntiRevoke
 
+Package: com.deontw.7days-antirevoke
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Deon
+Installed-Size: 152
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: apt.deonrepo.net.7days-antirevoke
+Replaces: apt.deonrepo.net.7days-antirevoke
+Provides: apt.deonrepo.net.7days-antirevoke
+Filename: ./debs/rootfull/com.deontw.7days-antirevoke_1.0_iphoneos-arm.deb
+Size: 5014
+MD5sum: d45ce6b9c3a7f9e1b80abbf16b705d9f
+SHA1: 660388ec839ba4e406d53cac1bf2b2d6dff204dd
+SHA256: fce726bfa2b3a113991a4a17a30f2444c27fbb7b95be51801837a41843562092
+Section: Tweaks
+Description: No more revocations for enterprise certificate. 無視企業證書掉簽。
+Author: Deon
+Name: 7Days-AntiRevoke
+
 Package: com.fiore.calculatorhistory
 Version: 1.1.3
 Architecture: iphoneos-arm64
-Maintainer: Donato Fiore
+Maintainer: Donato Fiore & lclrc
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Filename: ./debs/rootless/com.fiore.calculatorhistory_1.1.3_iphoneos-arm64.deb
-Size: 16624
-MD5sum: 691ad4f1c1fa4dbe41d439d0b0b4d918
-SHA1: 06353b44c531db0b00e1ddf3eaa7c1c4838a18d8
-SHA256: a6583ac374b42e38be1222c6844a481d2c1c4d3be5d6b0b0db1a0f81572273ca
+Size: 16602
+MD5sum: 3993181ac1e93bf785d395984b256a5e
+SHA1: 09bda6abfa46c272f38314db5de2329ccfc90666
+SHA256: 87e2ccfa0b41e178c184dad00b7a5d6bdba09f77f642ff5b980d7a564d7eb5e5
 Section: Tweaks
 Description: 让自带计算器可以查看历史计算过程和结果。v1.1.3: 增加支持多步运算，修复重复运算符错误。
 Author: Donato Fiore
-Name: CalculatorHistory
+Name: 计算器添加历史按钮
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.fiore.calculatorhistory/depiction.json
 
 Package: com.initnil.wcenableshowcontactaddcreatetime
 Version: 1.1-1
@@ -168,6 +187,87 @@ Description: A MobileTerminal fork. Full Screen Support
 Author: lordscotland
 Name: MTerminal-Rootless
 
+Package: com.ps.batteryhealthenabler
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Conflicts: com.ps.batteryhealthenabler
+Filename: ./debs/rootless/com.ps.batteryhealthenabler_1.0.1_iphoneos-arm64.deb
+Size: 5732
+MD5sum: 3eebbd56f4044faaff5cc8e891a672e5
+SHA1: 62868377349b8d3128f22ea198675ea832d82074
+SHA256: 4c39247bf310dfd55b605089ebeff0ada5bbc94f65172ef72376e559004cfcbd
+Section: Tweaks
+Description: 修复更换电池后，电池健康显示维修或无法验证的问题，无设置，自动生效。
+Author: PoomSmart
+Name: BatteryHealth
+
+Package: com.raulsaeed.bhtiktok++
+Version: 1.2-3+debug
+Architecture: iphoneos-arm64
+Maintainer: raul saeed
+Installed-Size: 916
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/rootless/com.raulsaeed.bhtiktok++_1.2-3+debug_iphoneos-arm64.deb
+Size: 134488
+MD5sum: 35deb753a10b6bbf50f7094429866868
+SHA1: 4c0cbc834d7c073cb3a92baf82d294ce8349c699
+SHA256: 5b1820e218cae5d7adb44dec919a3a0573da7fa37faca475b97d6f69740d23cf
+Section: Tweaks
+Description: An awesome tweak for TikTok!
+Author: raul saeed
+Name: BHTikTok++
+
+Package: com.raulsaeed.bhtiktok++
+Version: 1.3.0-43+debug
+Architecture: iphoneos-arm64
+Maintainer: raul saeed
+Installed-Size: 916
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/rootless/com.raulsaeed.bhtiktok++_1.3.0-43+debug_iphoneos-arm64.deb
+Size: 138168
+MD5sum: 61a4d8a98ac0dc434a094a8f175941f6
+SHA1: e4411de5f4958e62b426312983e4c61b34dce200
+SHA256: e8a8baf6d5eba37b92d5c0e478348c7461f9f011e9807fb1029b6af56499e525
+Section: Tweaks
+Description: An awesome tweak for TikTok!
+Author: raul saeed
+Name: BHTikTok++
+
+Package: com.raulsaeed.bhtiktok++
+Version: 1.5-4+debug
+Architecture: iphoneos-arm64
+Maintainer: raul saeed
+Installed-Size: 996
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.raulsaeed.bhtiktok++_1.5-4+debug_iphoneos-arm64.deb
+Size: 149458
+MD5sum: 6fd2875fd99ff7727a95aab19bf235ef
+SHA1: 21361670fdb0a683df312b695610750dc090f018
+SHA256: dcdf5ff9e509d2f8aad95ce09ad6d9e5f35cf17d0878a3d9857720f4ec1da74d
+Section: Tweaks
+Description: An awesome tweak for TikTok!
+Author: raul saeed
+Name: BHTikTok++
+
+Package: com.raulsaeed.bhtiktok++
+Version: 1.7-1+debug
+Architecture: iphoneos-arm64
+Maintainer: raul saeed
+Installed-Size: 1092
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.raulsaeed.bhtiktok++_1.7_iphoneos-arm64.deb
+Size: 167654
+MD5sum: 9eabf024bdb115a172fa48c7b3fe657b
+SHA1: 0bd54188d018fb7161bc93f7107ce008db2dc661
+SHA256: dd7cbcfd105448a3c327ae005e0e8f0681fe66b9b70975e23bc6124c1aed8d12
+Section: Tweaks
+Description: An awesome tweak for TikTok!
+Author: raul saeed
+Name: BHTikTok++
+
 Package: com.snail.aemuloautoemulate.rootless
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -213,6 +313,23 @@ Description: 地理位置请求弹窗，自动"允许一次"。 // When Location
  * 支持iOS 16 Bootstrap+Serotonin。
 Author: Snail <mu514983786@gmail.com>
 Name: 位置自动允许一次-rootless // AllowLocationOnce-rootless
+
+Package: com.turbo.3dappversionspoofer
+Version: 2.0.3.1
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj & daodao
+Installed-Size: 492
+Depends: com.opa334.altlist
+Conflicts: com.0xkuj.3dappversionspoofer
+Filename: ./debs/rootless/com.turbo.3dappversionspoofer_2.0.3.1_iphoneos-arm64.deb
+Size: 61376
+MD5sum: b366e4bf2cb2dcc5c9aabc854e33fd5a
+SHA1: 4f5377925930610beae1566e5cafb0cfd6d64bd1
+SHA256: 86412558790b3a138f9af8abfbc839b4aa309d0b07a15afe74b4987427892b37
+Section: Tweaks
+Description: 根据开源版本v2.0.3编译中文版，可从设置或者长按应用图标——伪装版本，伪装应用的版本号和iOS版本号。
+Author: 0xkuj
+Name: 3DAppVersionSpoofer
 
 Package: com.turbo.bearvpn
 Version: 0.0.1
@@ -279,6 +396,39 @@ Section: Utilities
 Description: Essential and useful Filza scripts.
 Author: Korboy
 Name: Korboy's Filza Scripts
+
+Package: com.turbo.provpn
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 464
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.turbo.provpn_0.0.1_iphoneos-arm64.deb
+Size: 86284
+MD5sum: da863478fca932edf6a52653c5d9d843
+SHA1: a221e66df77152499c8711179d24e49a881169bd
+SHA256: 59943ecb29afb28e7db69e7c01eab107e3c864e44693258a13db457cab8f2235
+Section: Cracks
+Description: 解锁会员
+Author: 🅷🆆
+Name: PROVPN Crack
+Sileodepiction: https://turbotse.github.io/depic/provpn.json
+
+Package: com.turbo.talkatonenoads
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.turbo.talkatonenoads_0.1_iphoneos-arm64.deb
+Size: 3320
+MD5sum: 57ec8a9387b327b6ee6fb1bd1ddde259
+SHA1: c98b7742f025b2935e9ba4b8ba6b3e1f6bae7d6a
+SHA256: 2049d392cd3b661e0a311c70951a46efa00bb991fae65af113c7947b67f7423b
+Section: NoAds
+Description: 移除 Talkatone 的广告
+Author: Nets
+Name: Talkatone NoAds
 
 Package: mterminal
 Version: 1.6
@@ -1464,23 +1614,6 @@ Name: PullClearNC-Rootless
 
 Package: netskao.pulloverpro
 Version: 2.1.4-1
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 1480
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
-Conflicts: com.c1d3r.pulloverpro
-Filename: ./debs/rootfull/netskao.pulloverpro_2.1.4-1_iphoneos-arm.deb
-Size: 337544
-MD5sum: b8d2cc20d1db089adeddabb9aeb14351
-SHA1: 49f81c489a375a942552e1822cbec6fefd7f90c7
-SHA256: 75b5fc46c6cb5dfa782df18f4f3c68fc4c9e43caa2630b5ac84d57760473d70e
-Section: Netskao-Tweaks
-Description: A better way to multitask! Fix support for iOS14-iOS15
-Author: c1d3r
-Name: PullOver Pro
-
-Package: netskao.pulloverpro
-Version: 2.1.4-1
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 3528
@@ -1493,6 +1626,23 @@ SHA1: a7b1f71bc89a53fc4924b89779fa13b073db8725
 SHA256: daaa95ce5a41ed465d50b85ad15e8244ec3e28e55eaf2442556f804dc37ce620
 Section: Netskao-Tweaks
 Description: A better way to multitask! Fix support for iOS15+
+Author: c1d3r
+Name: PullOver Pro
+
+Package: netskao.pulloverpro
+Version: 2.1.4-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1480
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/rootfull/netskao.pulloverpro_2.1.4-1_iphoneos-arm.deb
+Size: 337544
+MD5sum: b8d2cc20d1db089adeddabb9aeb14351
+SHA1: 49f81c489a375a942552e1822cbec6fefd7f90c7
+SHA256: 75b5fc46c6cb5dfa782df18f4f3c68fc4c9e43caa2630b5ac84d57760473d70e
+Section: Netskao-Tweaks
+Description: A better way to multitask! Fix support for iOS14-iOS15
 Author: c1d3r
 Name: PullOver Pro
 
@@ -1776,6 +1926,27 @@ Description: Display Notification Avatars for WeChat App using iOS15 APIs
 Author: Netskao
 Name: WeChatNotiAvatar
 
+Package: netskao.wechatpurification.last
+Version: 4.2-6
+Architecture: iphoneos-arm64
+Installed-Size: 17133
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.wechatpurification, netskao.wechatpurifications, com.dumpapp.wechat-rootless, com.dumpapp.wechat-rootlesss
+Filename: ./debs/rootless/netskao.wechatpurification.last_4.2-6_iphoneos-arm64.deb
+Size: 7328268
+MD5sum: b939da57c261426702bc3fa3b35768cf
+SHA1: 7da044a59a1900486e2d3b2544398bf70103c7a4
+SHA256: 25eb1f544e23cbaf5be67ea04bd5800998ee92fa407bf5e36de1eb596e7dc26a
+Section: 微信插件
+Description: 微信净化，还原聊天本质，干净的微信给你
+ * 插件位于微信-设置内
+ * 仅支持 8.0.29 及以上版本
+ * 相比 END 版本，多了语音及红包功能
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
+Name: 微信净化
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/jss.json
+
 Package: netskao.wechatscan
 Version: 1.2-2
 Architecture: iphoneos-arm
@@ -1925,4 +2096,20 @@ Dev: minuit
 Icon: file:///Library/PreferenceBundles/GPSCheatSettings.bundle/icon@2x.png
 Name: GPSCheat
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: preferenceloader
+Version: 2.2.8
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 371
+Depends: mobilesubstrate
+Filename: ./debs/rootless/preferenceloader_2.2.8_iphoneos-arm64.deb
+Size: 19180
+MD5sum: 11795810cc51f256e38426ea59ca8d2c
+SHA1: 52d0ef5c1c5ad4e1e25d2dce0049823e79ecdae5
+SHA256: a22e3a248ea18a6fae3ea0ae8f55f5f31f246cd63041cf3ed0c756c2046671dd
+Section: System
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
 
