@@ -33,25 +33,6 @@ Name: PKC_无根
 
 Package: com.deontw.7days-antirevoke
 Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Deon
-Installed-Size: 152
-Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: apt.deonrepo.net.7days-antirevoke
-Replaces: apt.deonrepo.net.7days-antirevoke
-Provides: apt.deonrepo.net.7days-antirevoke
-Filename: ./debs/rootless/com.deontw.7days-antirevoke_1.0_iphoneos-arm64.deb
-Size: 5050
-MD5sum: 94283d7420502872405750426bfb0b04
-SHA1: 3808383fcc605421e2ac8d7aef4a2774281c39c8
-SHA256: e87c80a25b728534fd76c80c259cef4ab4754c1f295fcb16686e186d7e9da7f3
-Section: Tweaks
-Description: No more revocations for enterprise certificate. 無視企業證書掉簽。
-Author: Deon
-Name: 7Days-AntiRevoke
-
-Package: com.deontw.7days-antirevoke
-Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Deon
 Installed-Size: 152
@@ -64,6 +45,25 @@ Size: 5014
 MD5sum: d45ce6b9c3a7f9e1b80abbf16b705d9f
 SHA1: 660388ec839ba4e406d53cac1bf2b2d6dff204dd
 SHA256: fce726bfa2b3a113991a4a17a30f2444c27fbb7b95be51801837a41843562092
+Section: Tweaks
+Description: No more revocations for enterprise certificate. 無視企業證書掉簽。
+Author: Deon
+Name: 7Days-AntiRevoke
+
+Package: com.deontw.7days-antirevoke
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Deon
+Installed-Size: 152
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: apt.deonrepo.net.7days-antirevoke
+Replaces: apt.deonrepo.net.7days-antirevoke
+Provides: apt.deonrepo.net.7days-antirevoke
+Filename: ./debs/rootless/com.deontw.7days-antirevoke_1.0_iphoneos-arm64.deb
+Size: 5050
+MD5sum: 94283d7420502872405750426bfb0b04
+SHA1: 3808383fcc605421e2ac8d7aef4a2774281c39c8
+SHA256: e87c80a25b728534fd76c80c259cef4ab4754c1f295fcb16686e186d7e9da7f3
 Section: Tweaks
 Description: No more revocations for enterprise certificate. 無視企業證書掉簽。
 Author: Deon
@@ -170,22 +170,6 @@ Name: StoreSwitchAccounts
 
 Package: com.netskao.wcabtestlocalbackup
 Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/rootless/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm64.deb
-Size: 2488
-MD5sum: 66585141d7be3314647a666ead368e82
-SHA1: 309ec321edbe2788d6e717c86612f6e81c0875b4
-SHA256: c4c490049f6372a35753248fa1766bb2d6446b2c33c3f918e2d3bd129980943c
-Section: Netskao-Tweaks
-Description: WeChat Enables AB Tested Local Backup, Only 8.0.50+
-Author: Netskao
-Name: WCABTestLocalBackup
-
-Package: com.netskao.wcabtestlocalbackup
-Version: 1.1-1
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 72
@@ -200,21 +184,21 @@ Description: WeChat Enables AB Tested Local Backup, Only 8.0.50+
 Author: Netskao
 Name: WCABTestLocalBackup
 
-Package: com.netskao.wcabtesttimelineemoticonorimage
+Package: com.netskao.wcabtestlocalbackup
 Version: 1.1-1
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/rootless/com.netskao.wcabtesttimelineemoticonorimage_1.1-1_iphoneos-arm64.deb
-Size: 2220
-MD5sum: 19b51fcf726f735f3255b6e4863d5b4d
-SHA1: a293bf82d5c3fe85dfd501d813f57c91bb434b82
-SHA256: fe9cd58ad7e965616ac9f10ce6e97db7d20dcb1f6fab591e8951945882fe70e2
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/rootless/com.netskao.wcabtestlocalbackup_1.1-1_iphoneos-arm64.deb
+Size: 2488
+MD5sum: 66585141d7be3314647a666ead368e82
+SHA1: 309ec321edbe2788d6e717c86612f6e81c0875b4
+SHA256: c4c490049f6372a35753248fa1766bb2d6446b2c33c3f918e2d3bd129980943c
 Section: Netskao-Tweaks
-Description: WeChat Enables AB Tested TimeLine EmoticonOrImage, Only 8.0.60+
+Description: WeChat Enables AB Tested Local Backup, Only 8.0.50+
 Author: Netskao
-Name: WCABTestTimeLineEmoticonOrImage
+Name: WCABTestLocalBackup
 
 Package: com.netskao.wcabtesttimelineemoticonorimage
 Version: 1.1-1
@@ -232,21 +216,21 @@ Description: WeChat Enables AB Tested TimeLine EmoticonOrImage, Only 8.0.60+
 Author: Netskao
 Name: WCABTestTimeLineEmoticonOrImage
 
-Package: com.netskao.wcabtestvoicerecordview
+Package: com.netskao.wcabtesttimelineemoticonorimage
 Version: 1.1-1
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/rootless/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm64.deb
-Size: 2116
-MD5sum: 4ab61eaa3a1f6f1365f85244d6812f1f
-SHA1: 62502db5cfb586e1d53c977c002a6a45a47f3b30
-SHA256: ab1ba8995486ec33bebec08e8878d0b59782d80bb76f4c9c2a7da740d7b6ea0c
+Filename: ./debs/rootless/com.netskao.wcabtesttimelineemoticonorimage_1.1-1_iphoneos-arm64.deb
+Size: 2220
+MD5sum: 19b51fcf726f735f3255b6e4863d5b4d
+SHA1: a293bf82d5c3fe85dfd501d813f57c91bb434b82
+SHA256: fe9cd58ad7e965616ac9f10ce6e97db7d20dcb1f6fab591e8951945882fe70e2
 Section: Netskao-Tweaks
-Description: WeChat Enables AB Tested VoiceRecordView New Button, Only 8.0.60+
+Description: WeChat Enables AB Tested TimeLine EmoticonOrImage, Only 8.0.60+
 Author: Netskao
-Name: WCABTestVoiceRecordView
+Name: WCABTestTimeLineEmoticonOrImage
 
 Package: com.netskao.wcabtestvoicerecordview
 Version: 1.1-1
@@ -263,6 +247,54 @@ Section: Netskao-Tweaks
 Description: WeChat Enables AB Tested VoiceRecordView New Button, Only 8.0.60+
 Author: Netskao
 Name: WCABTestVoiceRecordView
+
+Package: com.netskao.wcabtestvoicerecordview
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/rootless/com.netskao.wcabtestvoicerecordview_1.1-1_iphoneos-arm64.deb
+Size: 2116
+MD5sum: 4ab61eaa3a1f6f1365f85244d6812f1f
+SHA1: 62502db5cfb586e1d53c977c002a6a45a47f3b30
+SHA256: ab1ba8995486ec33bebec08e8878d0b59782d80bb76f4c9c2a7da740d7b6ea0c
+Section: Netskao-Tweaks
+Description: WeChat Enables AB Tested VoiceRecordView New Button, Only 8.0.60+
+Author: Netskao
+Name: WCABTestVoiceRecordView
+
+Package: com.netskao.wcdisablehotupdates
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/rootfull/com.netskao.wcdisablehotupdates_1.1-2_iphoneos-arm.deb
+Size: 2088
+MD5sum: f7b87de797a4d285f5932131f17ad117
+SHA1: ae8a3bd6555c7dd8926aba620cbb0292ef573f16
+SHA256: 1f7a8b8375727427029e734eacf386d98e744e6a5b09cad91e9dad3df6a93d5b
+Section: Netskao-Tweaks
+Description: WeChat Disable Hot Updates
+Author: Netskao
+Name: WCDisableHotUpdates
+
+Package: com.netskao.wcdisablehotupdates
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/rootless/com.netskao.wcdisablehotupdates_1.1-2_iphoneos-arm64.deb
+Size: 2172
+MD5sum: e45193525992666fe9b5ef3b6249d990
+SHA1: 0ad57683e38d99cd46a75717f33776fb01ff6aa3
+SHA256: 70b79fc2057eaddaad8d8664a89b4d216087771cb9d12db5ba31d1ba024fb5b6
+Section: Netskao-Tweaks
+Description: WeChat Disable Hot Updates
+Author: Netskao
+Name: WCDisableHotUpdates
 
 Package: com.officialscheduler.mterminal-rootless
 Version: 1.4-1
@@ -1710,23 +1742,6 @@ Name: PullClearNC-Rootless
 
 Package: netskao.pulloverpro
 Version: 2.1.4-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 3528
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.c1d3r.pulloverpro
-Filename: ./debs/rootless/netskao.pulloverpro_2.1.4-1_iphoneos-arm64.deb
-Size: 903584
-MD5sum: 2c4a5b8f797f2e0f15d5be5ded15f698
-SHA1: a7b1f71bc89a53fc4924b89779fa13b073db8725
-SHA256: daaa95ce5a41ed465d50b85ad15e8244ec3e28e55eaf2442556f804dc37ce620
-Section: Netskao-Tweaks
-Description: A better way to multitask! Fix support for iOS15+
-Author: c1d3r
-Name: PullOver Pro
-
-Package: netskao.pulloverpro
-Version: 2.1.4-1
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1480
@@ -1739,6 +1754,23 @@ SHA1: 49f81c489a375a942552e1822cbec6fefd7f90c7
 SHA256: 75b5fc46c6cb5dfa782df18f4f3c68fc4c9e43caa2630b5ac84d57760473d70e
 Section: Netskao-Tweaks
 Description: A better way to multitask! Fix support for iOS14-iOS15
+Author: c1d3r
+Name: PullOver Pro
+
+Package: netskao.pulloverpro
+Version: 2.1.4-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 3528
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/rootless/netskao.pulloverpro_2.1.4-1_iphoneos-arm64.deb
+Size: 903584
+MD5sum: 2c4a5b8f797f2e0f15d5be5ded15f698
+SHA1: a7b1f71bc89a53fc4924b89779fa13b073db8725
+SHA256: daaa95ce5a41ed465d50b85ad15e8244ec3e28e55eaf2442556f804dc37ce620
+Section: Netskao-Tweaks
+Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
 Name: PullOver Pro
 
