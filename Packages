@@ -314,6 +314,25 @@ Description: WeChat Disable Hot Updates
 Author: Netskao
 Name: WCDisableHotUpdates
 
+Package: com.newbie.ioscopy
+Version: 1.8.0
+Architecture: iphoneos-arm64
+Maintainer: newbie and Codex
+Installed-Size: 1748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), com.opa334.libsandy
+Conflicts: me.tomt000.copylog
+Replaces: me.tomt000.copylog
+Provides: me.tomt000.copylog
+Filename: ./debs/rootless/com.newbie.ioscopy_1.8.0_iphoneos-arm64.deb
+Size: 252718
+MD5sum: 3878c04139483a8eb94a9ae108d60a47
+SHA1: 526d77b682c0135162327173c4b3166b202fc7ad
+SHA256: 19778a788c990eb3077232151dc49ac761f976aef477e96ea5c1ea376fd37005
+Section: Tweaks
+Description: A modern clipboard history manager for iOS with pasted crash fixes and a beautiful UI.
+Author: newbie and Codex
+Name: iOSCopy
+
 Package: com.officialscheduler.mterminal-rootless
 Version: 1.4-1
 Architecture: iphoneos-arm64
