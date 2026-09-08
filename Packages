@@ -2240,6 +2240,40 @@ Description: 小红书去除启动广告, 去除信息流视频流广告, 修改
 Author: Netskao
 Name: 小红书 NoAds-Rootless
 
+Package: org.coolstar.sileo
+Version: 2.7.2
+Architecture: iphoneos-arm64
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/rootless/org.coolstar.sileo_2.7.2_iphoneos-arm64.deb
+Size: 2562640
+MD5sum: f5cdf59d92c83e222103431560e6ea12
+SHA1: 7d44ca191713c09678af24e3b40ad19b40957936
+SHA256: 0400897e15161c27d8ce6a88e57f639d11cdce796a79940347fca180dc22c29c
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Version: 2.7.2
+Architecture: iphoneos-arm
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/rootfull/org.coolstar.sileo_2.7.2_iphoneos-arm.deb
+Size: 2560948
+MD5sum: a5ee83a28b3eaa70b962c2675841318c
+SHA1: 64939b541f4e481aa34a936137aa7cf8e1cdd984
+SHA256: 8e4e81f3a133e12667afe61cedabe82be2adbb531d5a9ad8c6cd23a56ab678c6
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: org.thebigboss.gpscheat
 Version: 1.1-5
 Architecture: iphoneos-arm
