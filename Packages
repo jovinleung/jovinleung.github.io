@@ -204,6 +204,23 @@ Description: Conveniently switch between logged-in accounts, long press the desk
 Author: Netskao
 Name: StoreSwitchAccounts
 
+Package: com.netskao.swiftgramcrack
+Version: 1.1-7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1080
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/rootless/com.netskao.swiftgramcrack_1.1-7_iphoneos-arm64.deb
+Size: 423140
+MD5sum: eb4761cf2d2339ea2f31142f5510d626
+SHA1: b3712cba5cd3dd2716d7fb6e877d44fb0040036b
+SHA256: 9d4668aea90596c33a733179ad4e699b610e5618f4b4e67bf7f3978dbe24566e
+Section: Netskao-Tweaks
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
+Author: Netskao
+Name: Swiftgram Crack
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.swiftgramcrack.json
+
 Package: com.netskao.wcabtestlocalbackup
 Version: 1.1-1
 Architecture: iphoneos-arm64
