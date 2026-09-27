@@ -2309,6 +2309,40 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
+Package: org.coolstar.sileo
+Version: 2.7.4
+Architecture: iphoneos-arm64
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/rootless/org.coolstar.sileo_2.7.4_iphoneos-arm64.deb
+Size: 2569716
+MD5sum: 563faf3eb7d4b3834ca437a6ebd326b6
+SHA1: 22af3146acb25fc23fcbd4290b1eeb80680fadc7
+SHA256: abe1aa0b9a9fe1173f347f8d4099cc746d77ee2cabb25adf1db251b0dadcdc1f
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Version: 2.7.4
+Architecture: iphoneos-arm
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/rootfull/org.coolstar.sileo_2.7.4_iphoneos-arm.deb
+Size: 2567388
+MD5sum: a03aa6044a2e5eb60478dcb6692acd7f
+SHA1: cf07c5637c44554ceefac3f798505ded2a36c0ac
+SHA256: ebecfdd4f49d49a511f1fd882db5071abaecae29a1802ff4db6e39e642f09bd3
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: org.thebigboss.gpscheat
 Version: 1.1-5
 Architecture: iphoneos-arm
